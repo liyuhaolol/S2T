@@ -25,6 +25,10 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <provider
+            android:name=".utils.ContextProvider"
+            android:authorities="${applicationId}.utils.contextprovider"
+            android:exported="false" />
     </application>
 
 </manifest>
